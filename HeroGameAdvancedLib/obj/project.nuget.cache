@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "K9l71famMLQ9xvZKnTOTfsNMlKsYtXP+zY6d5xT+ofTiIzrbNJ4+SCTUgZZ71huEGIwuqXtL12uZ9xIocqwXtw==",
+  "dgSpecHash": "FVTEvk0/kqgLWO1j5TaeqlBfXpU8vOnnzGqvAV990lzB5rbG7tsLW3Ccb6jwaHWcbPcQ5COE7s3QKAQljF61Lw==",
   "success": true,
-  "projectFilePath": "/Users/anguyen/Projects/HeroGameAdvancedModels/HeroGameAdvancedLib/HeroGameAdvancedLib.csproj",
+  "projectFilePath": "C:\\LastUnitTest\\HeroGameAdvancedModels\\HeroGameAdvancedLib\\HeroGameAdvancedLib.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

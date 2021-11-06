@@ -1,7 +1,9 @@
 ﻿using System;
 
-namespace HeroGameAdvancedLib {
-    public class Hero {
+namespace HeroGameAdvancedLib
+ {
+   /* public class Hero 
+    {
         public int HeroId { get; set; }
         public string Name { get; set; }
         public Dice Dice { get; set; }
@@ -18,13 +20,14 @@ namespace HeroGameAdvancedLib {
         // timesToAttack is greater that the number of Uses should return -1 and not subtract from Uses.
         public int Attack(int timesToAttack) {
             this.Uses -= timesToAttack;
-            return this.Dice.Roll * timesToAttack;
+           return this.Dice.Roll * timesToAttack;
+        
         }
 
         
-    }
+    } */
 
-    public class Villain {
+    /*public class Villain {
         public int VillainId { get; set; }
         public string Name { get; set; }
         public int Hitpoints { get; set; }
@@ -37,13 +40,16 @@ namespace HeroGameAdvancedLib {
 
         // applies amount of damage to Hitpoints.
         // if damage is greater that Hitpoints, Hitpoints should be set to 0 (zero)
-        public void Damage(int amount) {
+           public void Damage(int amount) {
             this.Hitpoints -= amount;
-            this.Hitpoints < 0 ? this.Hitpoints = 0 : this.Hitpoints;
-        }
-    }
+           this.Hitpoints < 0 ? this.Hitpoints = 0 : this.Hitpoints;
+  
 
-    public class Dice {
+
+        }
+    }*/
+
+        public class Dice {
         public int Min { get; set; }
         public int Max { get; set; }
         private Random rand = new Random();
